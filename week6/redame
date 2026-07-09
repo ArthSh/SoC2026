@@ -1,0 +1,17 @@
+Week-6-YOLOv8-NEU/
+│
+├── README.md
+├── Week6_YOLOv8.ipynb
+├── requirements.txt
+│
+├── best.pt
+│
+├── results/
+│   ├── results.png
+│   ├── confusion_matrix.png
+│   ├── prediction_1.jpg
+│   ├── prediction_2.jpg
+│   ├── prediction_3.jpg
+│   └── prediction_4.jpg
+│
+└── metrics.md
