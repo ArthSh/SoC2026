@@ -1,0 +1,19 @@
+# Install Ollama (from https://ollama.com)
+ollama pull llama3.2
+ollama serve   # runs a local API at http://localhost:11434
+
+#week7 + week8/
+├── app.py             
+├── requirements.txt    
+└── models/
+    └── best.pt          
+
+#install requirements
+pip install -r requirements.txt
+
+#start ollama in a separate terminal
+ollama serve
+ollama pull llama3.2   # only needed once
+
+#run the app
+streamlit run app.py
